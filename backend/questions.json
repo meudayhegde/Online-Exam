@@ -1,0 +1,227 @@
+[
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "If the sum of two numbers is 20 and their product is 96, what is the difference between the two numbers?",
+      "image": "",
+      "choices": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "A train travels at 60 km/hr. How long will it take to cover a distance of 150 km?",
+      "image": "",
+      "choices": [
+        "2 hours",
+        "2.5 hours",
+        "3 hours",
+        "3.5 hours"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "The sum of the first 10 natural numbers is:",
+      "image": "",
+      "choices": [
+        "50",
+        "45",
+        "55",
+        "60"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "If log 2 = 0.3010, what is the value of log 8?",
+      "image": "",
+      "choices": [
+        "0.6020",
+        "0.9030",
+        "1.2040",
+        "None of the above"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "Which of the following numbers is a prime number?",
+      "image": "",
+      "choices": [
+        "21",
+        "37",
+        "49",
+        "57"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "Find the next term in the sequence: 2, 6, 12, 20, 30, ...",
+      "image": "",
+      "choices": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "The average of 5, 10, 15, 20, and 25 is:",
+      "image": "",
+      "choices": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "Which of the following fractions is the largest?",
+      "image": "",
+      "choices": [
+        "3/5",
+        "5/8",
+        "7/9",
+        "2/3"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "A sum of ₹5000 is invested at 10% per annum simple interest. What will be the total amount after 3 years?",
+      "image": "",
+      "choices": [
+        "₹5500",
+        "₹5750",
+        "₹6000",
+        "₹6500"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "A shopkeeper marks up his goods by 25% and then gives a 10% discount. What is his effective profit percentage?",
+      "image": "",
+      "choices": [
+        "12.5%",
+        "15%",
+        "10%",
+        "20%"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "If the perimeter of a square is 24 cm, what is its area?",
+      "image": "",
+      "choices": [
+        "36 cm²",
+        "49 cm²",
+        "64 cm²",
+        "25 cm²"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "A and B can complete a task in 10 days. If A alone can complete it in 15 days, how long will B take alone?",
+      "image": "",
+      "choices": [
+        "20 days",
+        "25 days",
+        "30 days",
+        "35 days"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "What is the probability of getting a sum of 7 when rolling two fair dice?",
+      "image": "",
+      "choices": [
+        "1/6",
+        "1/5",
+        "1/7",
+        "1/8"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "A person walks at 5 km/hr for 6 hours. How much distance does he cover?",
+      "image": "",
+      "choices": [
+        "25 km",
+        "30 km",
+        "35 km",
+        "40 km"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB1",
+      "question": "If x² - 9 = 0, what are the possible values of x?",
+      "image": "",
+      "choices": [
+        "3 only",
+        "-3 only",
+        "±3",
+        "None of the above"
+      ],
+      "correct_answer": 2
+    }
+]
