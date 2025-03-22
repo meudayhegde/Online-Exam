@@ -136,3 +136,5 @@ dist
 .pnp.*
 env
 docs.txt
+__pycache__
+.DS_Store
