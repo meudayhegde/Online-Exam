@@ -2,23 +2,18 @@ import asyncio
 import httpx
 import random
 from faker import Faker
+from app import get_question_answers
 
 fake = Faker()
 API_BASE_URL = "http://localhost:8000/api"
 exam_code = "CAT2025"
 
-async def fetch_questions():
-    async with httpx.AsyncClient() as client:
-        response = await client.get(f"{API_BASE_URL}/questions", params={"exam_code": exam_code})
-        if response.status_code == 200:
-            return response.json()
-        return []
 
 async def register_aspirant(session_id):
     aspirant = {
         "roll_number": fake.unique.uuid4(),
         "uic": fake.unique.uuid4(),
-        "year": random.randint(2023, 2025),
+        "year": 2025,
         "exam_code": exam_code,
         "region_code": "IN",
         "session_id": session_id,
@@ -38,18 +33,16 @@ async def submit_exam(session_id, questions):
         await client.post(f"{API_BASE_URL}/submit", json=submission)
 
 async def main():
-    questions = await fetch_questions()
+    questions, _ = await get_question_answers(exam_code)
     if not questions:
         print("No questions found.")
         return
     
     tasks = []
-    for _ in range(10000):
+    for i in range(10000):
+        print(f'aspirant {i}')
         session_id = fake.uuid4()
-        tasks.append(register_aspirant(session_id))
-    aspirants = await asyncio.gather(*tasks)
-    
-    tasks = [submit_exam(a["session_id"], questions) for a in aspirants]
-    await asyncio.gather(*tasks)
+        aspirant = await register_aspirant(session_id)
+        await submit_exam(aspirant["session_id"], questions)
 
 asyncio.run(main())

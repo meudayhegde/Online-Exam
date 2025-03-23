@@ -12,6 +12,7 @@ from models import *
 from uuid import uuid4
 from datetime import datetime, UTC
 from collections import defaultdict
+from pymongo import UpdateOne
 
 load_dotenv()
 
@@ -190,12 +191,12 @@ async def calculate_rank_and_percentile(exam_code):
         cumulative_count += 1
         percentile = 100 * (cumulative_count / total_participants)
 
-        bulk_updates.append({
-            "update_one": {
-                "filter": {"_id": user["_id"]},
-                "update": {"$set": {"rank": rank + 1, "percentile": 100 - percentile}}
-            }
-        })
+        bulk_updates.append(
+            UpdateOne(
+                {"_id": user["_id"]},
+                {"$set": {"rank": rank + 1, "percentile": 100 - percentile}}
+            )
+        )
 
         if len(bulk_updates) >= 1000:
             await evaluation_collection.bulk_write(bulk_updates)
