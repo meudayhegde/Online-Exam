@@ -1,11 +1,11 @@
 # A tech Platform to conduct an Online Exam
 
 ## Pre-Requirements
-[Python](https://www.python.org/downloads/)
+[Python](https://www.python.org/downloads/)</br>
 [NextJS](https://nextjs.org/docs/app/getting-started/installation)
 
 ## Setup
-`git clone https://github.com/meudayhegde/Online-Exam.git`
+```git clone https://github.com/meudayhegde/Online-Exam.git```
 
 ---
 ## [frontend](https://github.com/meudayhegde/Online-Exam/tree/main/frontend)
@@ -29,9 +29,9 @@ npm run dev
     - [page.js](https://github.com/meudayhegde/Online-Exam/blob/main/frontend/src/app/exam/page.js)
     - other files - components used in Exam page
 
-### Complete
-### Unauthorized
-### Admin
+#### [Complete](https://github.com/meudayhegde/Online-Exam/blob/main/frontend/src/app/complete/page.js)
+#### [Unauthorized](https://github.com/meudayhegde/Online-Exam/blob/main/frontend/src/app/unauthorized/page.js)
+#### [Admin](https://github.com/meudayhegde/Online-Exam/tree/main/frontend/src/app/admin)
 
 
 ---
