@@ -1,0 +1,162 @@
+[
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "What is the chemical formula of sodium chloride?",
+      "image": "",
+      "choices": [
+        "NaCl",
+        "KCl",
+        "NaOH",
+        "HCl"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "Which of the following is a noble gas?",
+      "image": "",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Helium",
+        "Chlorine"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "What is the pH of pure water at 25°C?",
+      "image": "",
+      "choices": [
+        "7",
+        "5",
+        "8",
+        "10"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "Which element has the highest electronegativity?",
+      "image": "",
+      "choices": [
+        "Oxygen",
+        "Fluorine",
+        "Chlorine",
+        "Nitrogen"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "What is the oxidation state of sulfur in H₂SO₄?",
+      "image": "",
+      "choices": [
+        "+2",
+        "+4",
+        "+6",
+        "0"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "Which of the following is an example of a strong acid?",
+      "image": "",
+      "choices": [
+        "H₂CO₃",
+        "HCl",
+        "CH₃COOH",
+        "NH₃"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "Which type of bond is formed by the sharing of electrons?",
+      "image": "",
+      "choices": [
+        "Ionic bond",
+        "Covalent bond",
+        "Metallic bond",
+        "Hydrogen bond"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "What is the molecular mass of water (H₂O)?",
+      "image": "",
+      "choices": [
+        "16 g/mol",
+        "18 g/mol",
+        "20 g/mol",
+        "22 g/mol"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "What is Avogadro’s number?",
+      "image": "",
+      "choices": [
+        "6.022 × 10²²",
+        "6.022 × 10²³",
+        "6.022 × 10²⁴",
+        "6.022 × 10²⁵"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "region_code": "IN",
+      "year": 2025,
+      "exam_code": "CAT2025",
+      "subject_code": "2015SUB3",
+      "subject_name": "Chemistry",
+      "question": "Which gas is produced when hydrochloric acid reacts with zinc?",
+      "image": "",
+      "choices": [
+        "Oxygen",
+        "Hydrogen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "correct_answer": 1
+    }
+  ]

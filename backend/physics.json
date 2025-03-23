@@ -1,0 +1,162 @@
+[
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "A ball is thrown vertically upward with an initial velocity of 20 m/s. What will be its velocity at the highest point?",
+    "image": "",
+    "choices": [
+      "20 m/s",
+      "10 m/s",
+      "0 m/s",
+      "30 m/s"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "Which of the following is a scalar quantity?",
+    "image": "",
+    "choices": [
+      "Velocity",
+      "Acceleration",
+      "Force",
+      "Work"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "What is the dimensional formula of force?",
+    "image": "",
+    "choices": [
+      "M L T⁻²",
+      "M L² T⁻²",
+      "M L T⁻¹",
+      "M L⁻¹ T⁻²"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "Which law states that 'For every action, there is an equal and opposite reaction'?",
+    "image": "",
+    "choices": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Law of Gravitation"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "A car accelerates uniformly from 10 m/s to 30 m/s in 5 seconds. What is its acceleration?",
+    "image": "",
+    "choices": [
+      "4 m/s²",
+      "5 m/s²",
+      "6 m/s²",
+      "8 m/s²"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "What is the escape velocity on Earth?",
+    "image": "",
+    "choices": [
+      "7.9 km/s",
+      "11.2 km/s",
+      "15.4 km/s",
+      "3.2 km/s"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "Which of the following electromagnetic waves has the highest frequency?",
+    "image": "",
+    "choices": [
+      "Radio waves",
+      "Microwaves",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "The SI unit of power is:",
+    "image": "",
+    "choices": [
+      "Watt",
+      "Joule",
+      "Newton",
+      "Pascal"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "Which phenomenon is responsible for the blue color of the sky?",
+    "image": "",
+    "choices": [
+      "Dispersion",
+      "Scattering",
+      "Reflection",
+      "Refraction"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "region_code": "IN",
+    "year": 2025,
+    "exam_code": "CAT2025",
+    "subject_code": "2015SUB1",
+    "subject_name": "Physics",
+    "question": "Which of the following is a non-conservative force?",
+    "image": "",
+    "choices": [
+      "Gravitational force",
+      "Electrostatic force",
+      "Frictional force",
+      "Spring force"
+    ],
+    "correct_answer": 2
+  }
+]
