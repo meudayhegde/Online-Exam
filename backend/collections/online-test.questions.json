@@ -1,0 +1,570 @@
+[{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc7d"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "A ball is thrown vertically upward with an initial velocity of 20 m/s. What will be its velocity at the highest point?",
+  "image": "",
+  "choices": [
+    "20 m/s",
+    "10 m/s",
+    "0 m/s",
+    "30 m/s"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc7e"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "Which of the following is a scalar quantity?",
+  "image": "",
+  "choices": [
+    "Velocity",
+    "Acceleration",
+    "Force",
+    "Work"
+  ],
+  "correct_answer": 3
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc7f"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "What is the dimensional formula of force?",
+  "image": "",
+  "choices": [
+    "M L T⁻²",
+    "M L² T⁻²",
+    "M L T⁻¹",
+    "M L⁻¹ T⁻²"
+  ],
+  "correct_answer": 0
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc80"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "Which law states that 'For every action, there is an equal and opposite reaction'?",
+  "image": "",
+  "choices": [
+    "Newton's First Law",
+    "Newton's Second Law",
+    "Newton's Third Law",
+    "Law of Gravitation"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc81"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "A car accelerates uniformly from 10 m/s to 30 m/s in 5 seconds. What is its acceleration?",
+  "image": "",
+  "choices": [
+    "4 m/s²",
+    "5 m/s²",
+    "6 m/s²",
+    "8 m/s²"
+  ],
+  "correct_answer": 0
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc82"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "What is the escape velocity on Earth?",
+  "image": "",
+  "choices": [
+    "7.9 km/s",
+    "11.2 km/s",
+    "15.4 km/s",
+    "3.2 km/s"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc83"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "Which of the following electromagnetic waves has the highest frequency?",
+  "image": "",
+  "choices": [
+    "Radio waves",
+    "Microwaves",
+    "X-rays",
+    "Gamma rays"
+  ],
+  "correct_answer": 3
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc84"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "The SI unit of power is:",
+  "image": "",
+  "choices": [
+    "Watt",
+    "Joule",
+    "Newton",
+    "Pascal"
+  ],
+  "correct_answer": 0
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc85"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "Which phenomenon is responsible for the blue color of the sky?",
+  "image": "",
+  "choices": [
+    "Dispersion",
+    "Scattering",
+    "Reflection",
+    "Refraction"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac45fddaa23a3d94dc86"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB1",
+  "subject_name": "Physics",
+  "question": "Which of the following is a non-conservative force?",
+  "image": "",
+  "choices": [
+    "Gravitational force",
+    "Electrostatic force",
+    "Frictional force",
+    "Spring force"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc88"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "What is the value of (25)^0.5 + (9)^0.5?",
+  "image": "",
+  "choices": [
+    "5",
+    "7",
+    "8",
+    "10"
+  ],
+  "correct_answer": 3
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc89"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "If x^2 - 5x + 6 = 0, what are the values of x?",
+  "image": "",
+  "choices": [
+    "1 and 6",
+    "2 and 3",
+    "3 and 5",
+    "4 and 2"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc8a"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "What is the sum of the first 10 natural numbers?",
+  "image": "",
+  "choices": [
+    "45",
+    "50",
+    "55",
+    "60"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc8b"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "The derivative of x^3 with respect to x is:",
+  "image": "",
+  "choices": [
+    "3x",
+    "3x^2",
+    "x^2",
+    "x^3"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc8c"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "If sinθ = 3/5, what is cosθ?",
+  "image": "",
+  "choices": [
+    "4/5",
+    "3/4",
+    "5/3",
+    "1/2"
+  ],
+  "correct_answer": 0
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc8d"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "What is the value of log(1000) to the base 10?",
+  "image": "",
+  "choices": [
+    "2",
+    "3",
+    "4",
+    "10"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc8e"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "The area of a triangle with base 10 cm and height 5 cm is:",
+  "image": "",
+  "choices": [
+    "10 cm²",
+    "25 cm²",
+    "20 cm²",
+    "50 cm²"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc8f"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "What is the probability of getting a 5 when rolling a fair six-sided die?",
+  "image": "",
+  "choices": [
+    "1/6",
+    "1/5",
+    "1/3",
+    "1/2"
+  ],
+  "correct_answer": 0
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc90"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "What is the value of π to two decimal places?",
+  "image": "",
+  "choices": [
+    "3.12",
+    "3.14",
+    "3.16",
+    "3.18"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac59fddaa23a3d94dc91"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB2",
+  "subject_name": "Mathematics",
+  "question": "If a train travels at a speed of 60 km/h for 2 hours, how far does it travel?",
+  "image": "",
+  "choices": [
+    "100 km",
+    "110 km",
+    "120 km",
+    "130 km"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc92"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "What is the chemical formula of sodium chloride?",
+  "image": "",
+  "choices": [
+    "NaCl",
+    "KCl",
+    "NaOH",
+    "HCl"
+  ],
+  "correct_answer": 0
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc93"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "Which of the following is a noble gas?",
+  "image": "",
+  "choices": [
+    "Oxygen",
+    "Nitrogen",
+    "Helium",
+    "Chlorine"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc94"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "What is the pH of pure water at 25°C?",
+  "image": "",
+  "choices": [
+    "7",
+    "5",
+    "8",
+    "10"
+  ],
+  "correct_answer": 0
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc95"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "Which element has the highest electronegativity?",
+  "image": "",
+  "choices": [
+    "Oxygen",
+    "Fluorine",
+    "Chlorine",
+    "Nitrogen"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc96"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "What is the oxidation state of sulfur in H₂SO₄?",
+  "image": "",
+  "choices": [
+    "+2",
+    "+4",
+    "+6",
+    "0"
+  ],
+  "correct_answer": 2
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc97"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "Which of the following is an example of a strong acid?",
+  "image": "",
+  "choices": [
+    "H₂CO₃",
+    "HCl",
+    "CH₃COOH",
+    "NH₃"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc98"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "Which type of bond is formed by the sharing of electrons?",
+  "image": "",
+  "choices": [
+    "Ionic bond",
+    "Covalent bond",
+    "Metallic bond",
+    "Hydrogen bond"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc99"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "What is the molecular mass of water (H₂O)?",
+  "image": "",
+  "choices": [
+    "16 g/mol",
+    "18 g/mol",
+    "20 g/mol",
+    "22 g/mol"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc9a"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "What is Avogadro’s number?",
+  "image": "",
+  "choices": [
+    "6.022 × 10²²",
+    "6.022 × 10²³",
+    "6.022 × 10²⁴",
+    "6.022 × 10²⁵"
+  ],
+  "correct_answer": 1
+},
+{
+  "_id": {
+    "$oid": "67dfac61fddaa23a3d94dc9b"
+  },
+  "region_code": "IN",
+  "year": 2025,
+  "exam_code": "CAT2025",
+  "subject_code": "2015SUB3",
+  "subject_name": "Chemistry",
+  "question": "Which gas is produced when hydrochloric acid reacts with zinc?",
+  "image": "",
+  "choices": [
+    "Oxygen",
+    "Hydrogen",
+    "Carbon dioxide",
+    "Nitrogen"
+  ],
+  "correct_answer": 1
+}]

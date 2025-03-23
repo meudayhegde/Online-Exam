@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "67ded06dfddaa23a3d94dbf5"
+  },
+  "exam_code": "CAT2025",
+  "exam_duration": 120,
+  "exam_start": "2025-03-22T04:30:00Z",
+  "exam_end": "2025-03-23T11:30:00Z"
+}]

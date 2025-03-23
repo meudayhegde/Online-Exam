@@ -206,6 +206,82 @@ async def calculate_rank_and_percentile(exam_code):
 
     if bulk_updates:
         await evaluation_collection.bulk_write(bulk_updates)
+    
+    print('Evaluation Complete')
 
+async def calculate_rank_and_percentile_with_pipeline(exam_code):
+    overall_rank_pipeline = [
+        {"$match": {"exam_code": exam_code}},
+        {"$setWindowFields": {
+            "partitionBy": None,
+            "sortBy": {"score": -1},
+            "output": {
+                "rank": {"$rank": {}},
+                "total_count": {"$count": {}}
+            }
+        }},
+        {"$set": {
+            "percentile": {"$multiply": [{"$divide": [{"$subtract": ["$total_count", "$rank"]}, "$total_count"]}, 100]}
+        }},
+        {"$unset": "total_count"}
+    ]
+    
+    bulk_updates = []
+    async for doc in evaluation_collection.aggregate(overall_rank_pipeline):
+        bulk_updates.append(UpdateOne(
+            {"_id": doc["_id"]},
+            {"$set": {"rank": doc["rank"], "percentile": doc["percentile"]}}
+        ))
+        if len(bulk_updates) >= 500:
+            await evaluation_collection.bulk_write(bulk_updates)
+            bulk_updates = []
+
+    if bulk_updates:
+        await evaluation_collection.bulk_write(bulk_updates)
+    
+    # 2️⃣ Pipeline for Subject-wise Rank & Percentile Calculation
+    subject_rank_pipeline = [
+        {"$match": {"exam_code": exam_code}},
+        {"$unwind": "$subjectwise_score"},  # Convert subjectwise_score map into separate docs
+        {"$setWindowFields": {
+            "partitionBy": "$subjectwise_score.k",
+            "sortBy": {"subjectwise_score.v": -1},
+            "output": {
+                "subject_rank": {"$rank": {}},
+                "total_subject_count": {"$count": {}}
+            }
+        }},
+        {"$set": {
+            "subject_percentile": {"$multiply": [{"$divide": [{"$subtract": ["$total_subject_count", "$subject_rank"]}, "$total_subject_count"]}, 100]}
+        }},
+        {"$group": {
+            "_id": "$_id",
+            "subjectwise_rank": {"$push": {"k": "$subjectwise_score.k", "v": "$subject_rank"}},
+            "subjectwise_percentile": {"$push": {"k": "$subjectwise_score.k", "v": "$subject_percentile"}}
+        }},
+        {"$set": {
+            "subjectwise_rank": {"$arrayToObject": "$subjectwise_rank"},
+            "subjectwise_percentile": {"$arrayToObject": "$subjectwise_percentile"}
+        }}
+    ]
+
+    bulk_updates = []
+    async for doc in evaluation_collection.aggregate(subject_rank_pipeline):
+        bulk_updates.append(UpdateOne(
+            {"_id": doc["_id"]},
+            {"$set": {
+                "subjectwise_rank": doc["subjectwise_rank"],
+                "subjectwise_percentile": doc["subjectwise_percentile"]
+            }}
+        ))
+        if len(bulk_updates) >= 500:
+            await evaluation_collection.bulk_write(bulk_updates)
+            bulk_updates = []
+
+    if bulk_updates:
+        await evaluation_collection.bulk_write(bulk_updates)
+    
+    print('Evaluation Complete')
+    
 if __name__ == '__main__':
     uvicorn.run(app)
